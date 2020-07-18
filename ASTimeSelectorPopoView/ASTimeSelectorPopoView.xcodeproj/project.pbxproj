@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043BCD0924AC2EE700C2CCE2 /* ASCommonTipPopoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BCD0824AC2EE700C2CCE2 /* ASCommonTipPopoView.m */; };
+		046794BE24AAE92400385162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794BD24AAE92400385162 /* AppDelegate.m */; };
+		046794C124AAE92400385162 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794C024AAE92400385162 /* SceneDelegate.m */; };
+		046794C424AAE92400385162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794C324AAE92400385162 /* ViewController.m */; };
+		046794C724AAE92400385162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046794C524AAE92400385162 /* Main.storyboard */; };
+		046794C924AAE92800385162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046794C824AAE92800385162 /* Assets.xcassets */; };
+		046794CC24AAE92800385162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046794CA24AAE92800385162 /* LaunchScreen.storyboard */; };
+		046794CF24AAE92800385162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794CE24AAE92800385162 /* main.m */; };
+		046794D924AAE92800385162 /* ASTimeSelectorPopoViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794D824AAE92800385162 /* ASTimeSelectorPopoViewTests.m */; };
+		046794E424AAE92800385162 /* ASTimeSelectorPopoViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794E324AAE92800385162 /* ASTimeSelectorPopoViewUITests.m */; };
+		046794F424AAE93E00385162 /* ASTimeSelectorPopoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794F324AAE93E00385162 /* ASTimeSelectorPopoView.m */; };
+		046794FC24AB179C00385162 /* ASMonthAndDayCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794FA24AB179C00385162 /* ASMonthAndDayCollectionViewCell.m */; };
+		0467950024AB17D100385162 /* ASTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046794FF24AB17D100385162 /* ASTimeModel.m */; };
+		BA9C9A60384FF9522FEDB77C /* libPods-ASTimeSelectorPopoView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E02D2BA379968C5738D05C /* libPods-ASTimeSelectorPopoView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046794D524AAE92800385162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046794B124AAE92400385162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046794B824AAE92400385162;
+			remoteInfo = ASTimeSelectorPopoView;
+		};
+		046794E024AAE92800385162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046794B124AAE92400385162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046794B824AAE92400385162;
+			remoteInfo = ASTimeSelectorPopoView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043BCD0724AC2EE700C2CCE2 /* ASCommonTipPopoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCommonTipPopoView.h; sourceTree = "<group>"; };
+		043BCD0824AC2EE700C2CCE2 /* ASCommonTipPopoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCommonTipPopoView.m; sourceTree = "<group>"; };
+		046794B924AAE92400385162 /* ASTimeSelectorPopoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASTimeSelectorPopoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046794BC24AAE92400385162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046794BD24AAE92400385162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046794BF24AAE92400385162 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		046794C024AAE92400385162 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		046794C224AAE92400385162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046794C324AAE92400385162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046794C624AAE92400385162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046794C824AAE92800385162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046794CB24AAE92800385162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046794CD24AAE92800385162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046794CE24AAE92800385162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046794D424AAE92800385162 /* ASTimeSelectorPopoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTimeSelectorPopoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046794D824AAE92800385162 /* ASTimeSelectorPopoViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTimeSelectorPopoViewTests.m; sourceTree = "<group>"; };
+		046794DA24AAE92800385162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046794DF24AAE92800385162 /* ASTimeSelectorPopoViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTimeSelectorPopoViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046794E324AAE92800385162 /* ASTimeSelectorPopoViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTimeSelectorPopoViewUITests.m; sourceTree = "<group>"; };
+		046794E524AAE92800385162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046794F224AAE93E00385162 /* ASTimeSelectorPopoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTimeSelectorPopoView.h; sourceTree = "<group>"; };
+		046794F324AAE93E00385162 /* ASTimeSelectorPopoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTimeSelectorPopoView.m; sourceTree = "<group>"; };
+		046794F924AB179C00385162 /* ASMonthAndDayCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMonthAndDayCollectionViewCell.h; sourceTree = "<group>"; };
+		046794FA24AB179C00385162 /* ASMonthAndDayCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMonthAndDayCollectionViewCell.m; sourceTree = "<group>"; };
+		046794FE24AB17D100385162 /* ASTimeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTimeModel.h; sourceTree = "<group>"; };
+		046794FF24AB17D100385162 /* ASTimeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTimeModel.m; sourceTree = "<group>"; };
+		60E02D2BA379968C5738D05C /* libPods-ASTimeSelectorPopoView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASTimeSelectorPopoView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814928DB649C74DBA9EB4BE1 /* Pods-ASTimeSelectorPopoView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTimeSelectorPopoView.release.xcconfig"; path = "Target Support Files/Pods-ASTimeSelectorPopoView/Pods-ASTimeSelectorPopoView.release.xcconfig"; sourceTree = "<group>"; };
+		BE0488A5F334F487AD34CCF5 /* Pods-ASTimeSelectorPopoView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTimeSelectorPopoView.debug.xcconfig"; path = "Target Support Files/Pods-ASTimeSelectorPopoView/Pods-ASTimeSelectorPopoView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046794B624AAE92400385162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9C9A60384FF9522FEDB77C /* libPods-ASTimeSelectorPopoView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046794D124AAE92800385162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046794DC24AAE92800385162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043BCD0624AC2EE700C2CCE2 /* ASCommonTipPopoView */ = {
+			isa = PBXGroup;
+			children = (
+				043BCD0724AC2EE700C2CCE2 /* ASCommonTipPopoView.h */,
+				043BCD0824AC2EE700C2CCE2 /* ASCommonTipPopoView.m */,
+			);
+			path = ASCommonTipPopoView;
+			sourceTree = "<group>";
+		};
+		046794B024AAE92400385162 = {
+			isa = PBXGroup;
+			children = (
+				046794BB24AAE92400385162 /* ASTimeSelectorPopoView */,
+				046794D724AAE92800385162 /* ASTimeSelectorPopoViewTests */,
+				046794E224AAE92800385162 /* ASTimeSelectorPopoViewUITests */,
+				046794BA24AAE92400385162 /* Products */,
+				D7096D1DF840F31B817346A4 /* Pods */,
+				CA94700E859A566EB724D16B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046794BA24AAE92400385162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046794B924AAE92400385162 /* ASTimeSelectorPopoView.app */,
+				046794D424AAE92800385162 /* ASTimeSelectorPopoViewTests.xctest */,
+				046794DF24AAE92800385162 /* ASTimeSelectorPopoViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046794BB24AAE92400385162 /* ASTimeSelectorPopoView */ = {
+			isa = PBXGroup;
+			children = (
+				046794F124AAE93700385162 /* ASTimeSelectorPopoView */,
+				046794BC24AAE92400385162 /* AppDelegate.h */,
+				046794BD24AAE92400385162 /* AppDelegate.m */,
+				046794BF24AAE92400385162 /* SceneDelegate.h */,
+				046794C024AAE92400385162 /* SceneDelegate.m */,
+				046794C224AAE92400385162 /* ViewController.h */,
+				046794C324AAE92400385162 /* ViewController.m */,
+				046794C524AAE92400385162 /* Main.storyboard */,
+				046794C824AAE92800385162 /* Assets.xcassets */,
+				046794CA24AAE92800385162 /* LaunchScreen.storyboard */,
+				046794CD24AAE92800385162 /* Info.plist */,
+				046794CE24AAE92800385162 /* main.m */,
+			);
+			path = ASTimeSelectorPopoView;
+			sourceTree = "<group>";
+		};
+		046794D724AAE92800385162 /* ASTimeSelectorPopoViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				046794D824AAE92800385162 /* ASTimeSelectorPopoViewTests.m */,
+				046794DA24AAE92800385162 /* Info.plist */,
+			);
+			path = ASTimeSelectorPopoViewTests;
+			sourceTree = "<group>";
+		};
+		046794E224AAE92800385162 /* ASTimeSelectorPopoViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046794E324AAE92800385162 /* ASTimeSelectorPopoViewUITests.m */,
+				046794E524AAE92800385162 /* Info.plist */,
+			);
+			path = ASTimeSelectorPopoViewUITests;
+			sourceTree = "<group>";
+		};
+		046794F124AAE93700385162 /* ASTimeSelectorPopoView */ = {
+			isa = PBXGroup;
+			children = (
+				043BCD0624AC2EE700C2CCE2 /* ASCommonTipPopoView */,
+				046794FD24AB17BE00385162 /* Model */,
+				046794F224AAE93E00385162 /* ASTimeSelectorPopoView.h */,
+				046794F324AAE93E00385162 /* ASTimeSelectorPopoView.m */,
+				046794F924AB179C00385162 /* ASMonthAndDayCollectionViewCell.h */,
+				046794FA24AB179C00385162 /* ASMonthAndDayCollectionViewCell.m */,
+			);
+			path = ASTimeSelectorPopoView;
+			sourceTree = "<group>";
+		};
+		046794FD24AB17BE00385162 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046794FE24AB17D100385162 /* ASTimeModel.h */,
+				046794FF24AB17D100385162 /* ASTimeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA94700E859A566EB724D16B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E02D2BA379968C5738D05C /* libPods-ASTimeSelectorPopoView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7096D1DF840F31B817346A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE0488A5F334F487AD34CCF5 /* Pods-ASTimeSelectorPopoView.debug.xcconfig */,
+				814928DB649C74DBA9EB4BE1 /* Pods-ASTimeSelectorPopoView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046794B824AAE92400385162 /* ASTimeSelectorPopoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046794E824AAE92800385162 /* Build configuration list for PBXNativeTarget "ASTimeSelectorPopoView" */;
+			buildPhases = (
+				FCB039BD391901AD87DB7D97 /* [CP] Check Pods Manifest.lock */,
+				046794B524AAE92400385162 /* Sources */,
+				046794B624AAE92400385162 /* Frameworks */,
+				046794B724AAE92400385162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASTimeSelectorPopoView;
+			productName = ASTimeSelectorPopoView;
+			productReference = 046794B924AAE92400385162 /* ASTimeSelectorPopoView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046794D324AAE92800385162 /* ASTimeSelectorPopoViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046794EB24AAE92800385162 /* Build configuration list for PBXNativeTarget "ASTimeSelectorPopoViewTests" */;
+			buildPhases = (
+				046794D024AAE92800385162 /* Sources */,
+				046794D124AAE92800385162 /* Frameworks */,
+				046794D224AAE92800385162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046794D624AAE92800385162 /* PBXTargetDependency */,
+			);
+			name = ASTimeSelectorPopoViewTests;
+			productName = ASTimeSelectorPopoViewTests;
+			productReference = 046794D424AAE92800385162 /* ASTimeSelectorPopoViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046794DE24AAE92800385162 /* ASTimeSelectorPopoViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046794EE24AAE92800385162 /* Build configuration list for PBXNativeTarget "ASTimeSelectorPopoViewUITests" */;
+			buildPhases = (
+				046794DB24AAE92800385162 /* Sources */,
+				046794DC24AAE92800385162 /* Frameworks */,
+				046794DD24AAE92800385162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046794E124AAE92800385162 /* PBXTargetDependency */,
+			);
+			name = ASTimeSelectorPopoViewUITests;
+			productName = ASTimeSelectorPopoViewUITests;
+			productReference = 046794DF24AAE92800385162 /* ASTimeSelectorPopoViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046794B124AAE92400385162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					046794B824AAE92400385162 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					046794D324AAE92800385162 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 046794B824AAE92400385162;
+					};
+					046794DE24AAE92800385162 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 046794B824AAE92400385162;
+					};
+				};
+			};
+			buildConfigurationList = 046794B424AAE92400385162 /* Build configuration list for PBXProject "ASTimeSelectorPopoView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046794B024AAE92400385162;
+			productRefGroup = 046794BA24AAE92400385162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046794B824AAE92400385162 /* ASTimeSelectorPopoView */,
+				046794D324AAE92800385162 /* ASTimeSelectorPopoViewTests */,
+				046794DE24AAE92800385162 /* ASTimeSelectorPopoViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046794B724AAE92400385162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046794CC24AAE92800385162 /* LaunchScreen.storyboard in Resources */,
+				046794C924AAE92800385162 /* Assets.xcassets in Resources */,
+				046794C724AAE92400385162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046794D224AAE92800385162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046794DD24AAE92800385162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FCB039BD391901AD87DB7D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASTimeSelectorPopoView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046794B524AAE92400385162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046794C424AAE92400385162 /* ViewController.m in Sources */,
+				046794BE24AAE92400385162 /* AppDelegate.m in Sources */,
+				046794F424AAE93E00385162 /* ASTimeSelectorPopoView.m in Sources */,
+				043BCD0924AC2EE700C2CCE2 /* ASCommonTipPopoView.m in Sources */,
+				046794CF24AAE92800385162 /* main.m in Sources */,
+				0467950024AB17D100385162 /* ASTimeModel.m in Sources */,
+				046794FC24AB179C00385162 /* ASMonthAndDayCollectionViewCell.m in Sources */,
+				046794C124AAE92400385162 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046794D024AAE92800385162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046794D924AAE92800385162 /* ASTimeSelectorPopoViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046794DB24AAE92800385162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046794E424AAE92800385162 /* ASTimeSelectorPopoViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046794D624AAE92800385162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046794B824AAE92400385162 /* ASTimeSelectorPopoView */;
+			targetProxy = 046794D524AAE92800385162 /* PBXContainerItemProxy */;
+		};
+		046794E124AAE92800385162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046794B824AAE92400385162 /* ASTimeSelectorPopoView */;
+			targetProxy = 046794E024AAE92800385162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046794C524AAE92400385162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046794C624AAE92400385162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046794CA24AAE92800385162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046794CB24AAE92800385162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046794E624AAE92800385162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046794E724AAE92800385162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046794E924AAE92800385162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0488A5F334F487AD34CCF5 /* Pods-ASTimeSelectorPopoView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASTimeSelectorPopoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASTimeSelectorPopoView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046794EA24AAE92800385162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814928DB649C74DBA9EB4BE1 /* Pods-ASTimeSelectorPopoView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASTimeSelectorPopoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASTimeSelectorPopoView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046794EC24AAE92800385162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASTimeSelectorPopoViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASTimeSelectorPopoViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASTimeSelectorPopoView.app/ASTimeSelectorPopoView";
+			};
+			name = Debug;
+		};
+		046794ED24AAE92800385162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASTimeSelectorPopoViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASTimeSelectorPopoViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASTimeSelectorPopoView.app/ASTimeSelectorPopoView";
+			};
+			name = Release;
+		};
+		046794EF24AAE92800385162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASTimeSelectorPopoViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASTimeSelectorPopoViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASTimeSelectorPopoView;
+			};
+			name = Debug;
+		};
+		046794F024AAE92800385162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = ASTimeSelectorPopoViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.andy.zl.ASTimeSelectorPopoViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ASTimeSelectorPopoView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046794B424AAE92400385162 /* Build configuration list for PBXProject "ASTimeSelectorPopoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046794E624AAE92800385162 /* Debug */,
+				046794E724AAE92800385162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046794E824AAE92800385162 /* Build configuration list for PBXNativeTarget "ASTimeSelectorPopoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046794E924AAE92800385162 /* Debug */,
+				046794EA24AAE92800385162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046794EB24AAE92800385162 /* Build configuration list for PBXNativeTarget "ASTimeSelectorPopoViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046794EC24AAE92800385162 /* Debug */,
+				046794ED24AAE92800385162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046794EE24AAE92800385162 /* Build configuration list for PBXNativeTarget "ASTimeSelectorPopoViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046794EF24AAE92800385162 /* Debug */,
+				046794F024AAE92800385162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046794B124AAE92400385162 /* Project object */;
+}
